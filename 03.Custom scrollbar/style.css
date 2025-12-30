@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(226, 226, 165);
+}
+
+.card{
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+section .card p{
+    width:500px;
+}
+
+section .card h1{
+    margin-bottom: 20px;
+}
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    
+
+ 
+    background: linear-gradient(45deg, #fa61da 0.000%, #ff8891 50.000%, #ffcd5a 100.000%);
+    border-radius: 100px;
+}
